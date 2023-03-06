@@ -1,0 +1,46 @@
+.chartContainer {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.chartTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.chart {
+  margin: 0 100px;
+}
+
+.mapContainer {
+  /* height: 400px;
+  width: 100%;
+  margin: 0 auto; */
+  /* height: 30vh;
+  width: 100%;
+  margin-top: 20px; */
+  height: 30vh;
+  width: 83%;
+  margin: auto;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.marker {
+  width: 20px;
+  height: 34px;
+  background-image: url("https://maps.gstatic.com/mapfiles/markers2/marker.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+}
